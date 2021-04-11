@@ -1,0 +1,24 @@
+<view class="contain ">
+	<view class="title">
+		<h2>请输入：</h2>
+	</view>
+	<view class="content">
+		<input type="text" value="{{iptValue}}" bindinput="handleinput" placeholder="{{placeholder}}" />
+	</view>
+	<view class="control">
+		<button bindtap="getdata">下一个</button>
+		<button bindtap="setdatas">完成</button>
+	</view>
+	<view class="postscript">
+		ps：请确保输入两个选项以上的内容，但不要超过13个哦~
+	</view>
+
+	<view class="shade" hidden="{{!flag}}">
+		<view class="tanchuang">
+			<text>
+			请确保您已经输入内容了
+		</text>
+			<button class="close" bindtap="close">确定</button>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,17 @@
+.hot_food,
+.recom_food {
+  color: #fff;
+  width: 80%;
+  padding: 20rpx;
+  margin: 20rpx 0;
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(to right, #c973ff, #aebaf8);
+}
+.recom_food {
+  background: linear-gradient(to right, #a0f1ea, #ead6ee);
+  box-shadow: 0 10px 10px rgba(160, 241, 234, 0.2);
+}
+.hot_food {
+  box-shadow: 0 10px 10px rgba(201, 115, 255, 0.5);
+}

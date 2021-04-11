@@ -1,0 +1,6 @@
+/* pages/lunpan/index.wxss */
+
+#zhuanpan_container {
+  margin: 20rpx;
+  margin-top: 100rpx;
+}

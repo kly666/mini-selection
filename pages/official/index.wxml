@@ -1,0 +1,17 @@
+<!--pages/official/index.wxml-->
+<view class="container">
+	<view class="hot_food">
+		<navigator url="../hotfood/index">
+			<view>
+				今日热门食物榜单
+			</view>
+		</navigator>
+	</view>
+	<view class="recom_food">
+		<navigator url="../recomfood/index">
+			<view>
+				今天吃什么呢
+			</view>
+		</navigator>
+	</view>
+</view>

@@ -1,0 +1,28 @@
+<view class="container">
+	<view class="textcontent">
+		<text>美好的一天，还在为选择哪一个而纠结吗？<br />
+		试试下面的内容吧 (*^▽^*)
+		</text>
+	</view>
+
+	<view class="official">
+		<navigator url="../official/index">
+			<view class="title">
+				推荐内容
+			</view>
+			<view class="body">
+				选择推荐的选择项
+			</view>
+		</navigator>
+	</view>
+	<view class="custom">
+		<navigator url="../custom/index">
+			<view class="title">
+				自定义内容
+			</view>
+			<view class="body">
+				自定义属于自己的选择项
+			</view>
+		</navigator>
+	</view>
+</view>

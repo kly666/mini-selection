@@ -1,0 +1,4 @@
+<!--pages/lunpan/index.wxml-->
+<view id="zhuanpan_container">
+	<zhuanpan awardsConfig="{{father_awardsConfig}}" />
+</view>

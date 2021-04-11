@@ -1,0 +1,5 @@
+<!--pages/createfood/index.wxml-->
+<view class="container">
+	<textarea name="" id="" cols="30" rows="10" value="兰州拉面 汉堡包 大猪肘子 烧腊饭" bindinput="inpfood"></textarea>
+	<button class="btn" bindtap="savefood">保存</button>
+</view>

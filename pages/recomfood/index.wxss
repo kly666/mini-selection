@@ -1,0 +1,8 @@
+.contain {
+  margin: 100rpx auto;
+}
+.create_food {
+  margin-top: 100rpx;
+  text-align: center;
+  color: #666;
+}

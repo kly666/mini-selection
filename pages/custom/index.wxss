@@ -1,0 +1,56 @@
+.contain {
+  padding: 100rpx 0 0 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  /* width: 80%; */
+  margin-bottom: 50rpx;
+}
+.title h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+.content input {
+  width: 80%;
+  height: 80rpx;
+  padding: 20rpx;
+  border: 2rpx solid #ccc;
+  background-color: #fff;
+}
+.tanchuang {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+/*遮罩层 */  
+.shade{   
+  width:100%;   
+  height:100%;   
+  top:0; 
+  background:rgba(0,0,0,0.5);   
+  overflow: hidden;   
+  /*要显示在wrap的上面 */   
+  z-index: 1;   
+  position: absolute;  
+  } 
+
+.shade .close {
+  background: #ceaed4;
+  border-radius: 0;
+}
+
+.postscript {
+  position: absolute;
+  bottom: 300rpx;
+  padding: 40rpx;
+}

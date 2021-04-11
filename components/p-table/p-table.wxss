@@ -1,0 +1,103 @@
+/* components/p-table/p-table.wxss */
+.table {
+  position: relative;
+  overflow: hidden;
+}
+.title {
+  position: fixed absolute;
+ 
+
+  font-size: 26rpx;
+  color: rgb(129, 129, 129);
+  font-weight: 750;
+}
+
+.tr {
+  display: flex;
+  width: 100%;
+  /* justify-content: center; */
+}
+.th{
+  width: 26%;
+  /* background: #3366FF; */
+  background: #1ABDE6;
+  color: #fff;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+  flex-shrink: 0;
+}
+.td{
+  background: #fff;
+  width: 26%;
+  height: 3em;
+  align-items: center;
+  line-height: 3em;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.bg {
+  background: #E6F3F9;
+}
+
+.fixed {
+  /* overflow-x: scroll;  */
+  z-index: 1; 
+  position: fixed relative;
+  left: 0;
+  right: 0;
+}
+
+.operation {
+  margin-top: 16rpx;
+}
+.oper {
+  width: 112px;
+}
+
+.input {
+  width: 95%;
+  height: 65rpx;
+  border: 6rpx solid  #E6F3F9;
+  border-radius: 20rpx;
+  padding-left: 12rpx;
+  margin-top: 6rpx;
+}
+
+.text {
+  color:rgb(107, 139, 139);
+  font-size: 36rpx;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  margin-top: 16rpx;
+  text-align: center;
+  padding: 12rpx;
+}
+.addBtn {
+  margin-top: 15rpx;
+}
+
+.del-content {
+  text-align: center;
+}
+
+.tip {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.someBtn {
+  display: flex;
+  flex: 1
+}
+
+.checked {
+  text-align: center;
+}
+.checked checkbox {
+  margin: 8rpx
+}

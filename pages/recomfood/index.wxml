@@ -1,0 +1,6 @@
+<view class="contain">
+	<zhuanpan awardsConfig="{{father_awardsConfig}}" />
+	<view class="create_food">
+		<navigator class="iconfont icon-bianji" url="../createfood/index">编辑食物</navigator>
+	</view>
+</view>

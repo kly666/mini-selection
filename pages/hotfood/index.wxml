@@ -1,0 +1,14 @@
+<view class="table">
+	<view class="tr thead">
+		<view class="td">top</view>
+		<view class="td">菜名</view>
+		<view class="td ">推荐指数</view>
+	</view>
+	<block wx:for="{{list}}" wx:key="key">
+		<view class="tr">
+			<view class="td">{{item.str}}</view>
+			<view class="td">{{item.text}}</view>
+			<view class="td">{{item.name}}</view>
+		</view>
+	</block>
+</view>

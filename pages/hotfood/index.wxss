@@ -1,0 +1,26 @@
+ 
+.table {
+  font-size: 28rpx;
+  background: #f7f7f7;
+  border-right: none;
+}
+ 
+.tr{
+  display: flex;
+  justify-content: space-around;
+}
+ 
+.td {
+  text-align: center;
+  display: inline-block;
+  border-left: none;
+  border-bottom: none;
+  padding: 10rpx 1%;
+  width: 20%;
+}
+ 
+.thead .td{
+  border-top: none;
+  height: 100rpx;
+  line-height: 50rpx;
+}

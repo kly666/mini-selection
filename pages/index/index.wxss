@@ -1,0 +1,32 @@
+.custom,
+.official {
+  color: #fff;
+  width: 80%;
+  padding: 20rpx;
+  background: linear-gradient(to right, #c973ff, #aebaf8);
+}
+.official {
+  background: linear-gradient(to right, #f9957f, #f2f5d0);
+}
+.title {
+  font-size: 22px;
+  font-weight: 700;
+}
+.body {
+  font-size: 16px;
+}
+.textcontent {
+  padding: 0;
+  margin: 20rpx 66rpx 50rpx 0;
+}
+.textcontent text {
+  font-size: 14px;
+}
+.official{
+  margin-bottom: 60rpx;
+  box-shadow: 0 10px 10px rgba(249, 150, 128, 0.5);
+}
+.custom {
+  margin-bottom: 60rpx;
+  box-shadow: 0 10px 10px rgba(201, 115, 255, 0.5);
+}
